@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <title>Drink Bite Cafe - Digital Menu</title>
+    <meta name="description" content="Mobile-first digital menu for Drink Bite Cafe. Browse text & photo menus, explore fried chicken, momos, pizzas, burgers, sandwiches, shakes, and show your selection to the waiter." />
+    
+    <!-- Theme & Icons -->
+    <meta name="theme-color" content="#0d0e12" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant.menu" />
+    <meta property="og:title" content="Drink Bite Cafe - Digital Menu" />
+    <meta property="og:description" content="Mobile-first digital menu for Drink Bite Cafe. Browse text & photo menus, explore fried chicken, momos, pizzas, burgers, sandwiches, shakes, and show your selection to the waiter." />
+    <meta property="og:image" content="/logo.png" />
+    <meta property="og:site_name" content="Drink Bite Cafe" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Drink Bite Cafe - Digital Menu" />
+    <meta name="twitter:description" content="Mobile-first digital menu for Drink Bite Cafe. Browse text & photo menus, explore fried chicken, momos, pizzas, burgers, sandwiches, shakes, and show your selection to the waiter." />
+    <meta name="twitter:image" content="/logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Drink Bite Cafe",
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
+      "description": "Good Food • Great Taste • Good Vibes. Featuring crispy fried chicken, hand-crafted momos, loaded pizzas, gourmet burgers, hey-sandwiches, shakes, mojitos and desserts.",
+      "servesCuisine": ["Fast Food", "Cafe", "Beverages", "Italian", "Tibetan Momos", "Snacks"],
+      "priceRange": "₹₹",
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "Drink Bite Cafe Complete Digital Menu",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Fried Chicken Combo House",
+            "description": "Crispy golden fried chicken buckets and combos"
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Starters & Quick Bites",
+            "description": "Crispy strips, wings, nuggets, fries, Maggi, wraps and pasta"
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Momos",
+            "description": "Steam, fried, peri-peri, schezwan, malai and kurkure momos"
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Pizza",
+            "description": "Freshly baked veg and non-veg personal pizzas"
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Burgers",
+            "description": "Crispy veg, paneer, and chicken zinger burgers"
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Hey-Sandwich's",
+            "description": "Grilled sandwiches, delights, club sandwiches and sweet sandwiches"
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Cool & Creamy",
+            "description": "Ice cream shakes, cold shakes, smoothies, mojitos, faloodas and kulukki sharbath"
+          }
+        ]
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-neutral-950 text-neutral-100 antialiased selection:bg-amber-500 selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

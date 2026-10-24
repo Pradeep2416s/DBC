@@ -1,0 +1,6 @@
+{
+  "name": "Drink Bite Cafe - Digital Menu",
+  "description": "Mobile-first digital menu for Drink Bite Cafe. Browse text & photo menus, explore fried chicken, momos, pizzas, burgers, sandwiches, shakes, and show your selection to the waiter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
